@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="module" src="@vite/client"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mike's Portfolio</title>
+
+    <!-- ========================================
+         Google Fonts - Using pixelated and modern fonts
+         ======================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ========================================
+         External CSS Stylesheet
+         ======================================== -->
+    <link rel="stylesheet" href="src/styles.css">
+<script crossorigin="anonymous" src="https://same.new/inject.js"></script></head>
+<body>
+    <!-- ========================================
+         NAVIGATION BAR
+         Fixed navigation with pixel-style branding
+         ======================================== -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html#home" class="nav-logo">
+                <span class="pixel-icon"> ☘ </span>
+                MKZ
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html#home" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ========================================
+         HERO / HOME SECTION
+         Big title with floating anime/Minecraft character
+         ======================================== -->
+    <section id="home" class="hero">
+        <!-- Animated background particles -->
+        <div class="particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+
+        <!-- Floating blocks decoration -->
+        <div class="floating-blocks">
+            <div class="block block-1"></div>
+            <div class="block block-2"></div>
+            <div class="block block-3"></div>
+            <div class="block block-4"></div>
+            <div class="block block-5"></div>
+        </div>
+
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-subtitle">Welcome to my world</p>
+                <h1 class="hero-title">
+                    <span class="title-line">I'm</span>
+                    <span class="title-name">Mike</span>
+                </h1>
+                <p class="hero-tagline">Creative Developer & Digital Craftsman</p>
+                <p class="hero-description">
+                    Building pixel-perfect experiences, one block at a time. 
+                    I turn ideas into powerful, high-impact solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="index.html#projects" class="btn btn-primary">
+                        <span class="btn-icon">></span>
+                        View My Quests
+                    </a>
+                    <a href="index.html#contact" class="btn btn-secondary">
+                        <span class="btn-icon">+</span>
+                        Join Party
+                    </a>
+                </div>
+            </div>
+
+            <!-- Floating Character -->
+            <div class="hero-character">
+                <div class="character-container">
+                    <!-- Pixel Art Character (CSS-based) -->
+                    <div class="pixel-character">
+                        <div class="char-head">
+                            <div class="char-hair"></div>
+                            <div class="char-face">
+                                <div class="char-eyes">
+                                    <span class="eye left"></span>
+                                    <span class="eye right"></span>
+                                </div>
+                                <div class="char-mouth"></div>
+                            </div>
+                        </div>
+                        <div class="char-body">
+                            <div class="char-shirt"></div>
+                            <div class="char-arm left"></div>
+                            <div class="char-arm right"></div>
+                        </div>
+                        <div class="char-legs">
+                            <div class="char-leg left"></div>
+                            <div class="char-leg right"></div>
+                        </div>
+                    </div>
+                    <!-- Glow effect -->
+                    <div class="character-glow"></div>
+                    <!-- Floating items around character -->
+                    <div class="floating-items">
+                        <span class="item item-1">*</span>
+                        <span class="item item-2">+</span>
+                        <span class="item item-3">*</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         ABOUT ME SECTION
+         Description, skills, and experience
+         ======================================== -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <h2 class="section-title">
+                <span class="title-bracket">[</span>
+                About Me
+                <span class="title-bracket">]</span>
+            </h2>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>The Story</h3>
+                        <p>
+                            Hey there, fellow adventurer! I'm a passionate developer who believes that
+                            every project is a new quest to conquer. With a love for pixel-perfect designs
+                            and clean, efficient code, I craft digital experiences that bring joy to users.
+                        </p>
+                        <p>
+                            I help Minecraft networks run smoother, faster, and more reliably through clean configurations, optimized servers, and polished player experiences.
+                            I believe in continuous learning and always
+                            strive to level up my skills.
+                        </p>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Years XP</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">11+</span>
+                            <span class="stat-label">Quests Done</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Passion</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-container">
+                    <h3>Skills & Abilities</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon html"></div>
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon css"></div>
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon js"></div>
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 35%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon react"></div>
+                            <span class="skill-name">Scripting</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon node"></div>
+                            <span class="skill-name">Spigot</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 55%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon pixel"></div>
+                            <span class="skill-name">configuration</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         PROJECTS SECTION
+         Grid of project cards with hover effects
+         ======================================== -->
+    <section id="projects" class="projects">
+        <div class="section-container">
+            <h2 class="section-title">
+                <span class="title-bracket">[</span>
+                My Quests
+                <span class="title-bracket">]</span>
+            </h2>
+            <p class="section-subtitle">Check out some of my completed adventures</p>
+
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="--bg-hue: 120;">
+                            <div class="placeholder-blocks">
+                                <span></span><span></span><span></span>
+                                <span></span><span></span><span></span>
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Dinocraft – Minecraft Network</h3>
+                        <p class="project-description">
+                            I contributed as a developer and server specialist, configuring servers, optimizing performance, and managing plugins. The network is currently down due to limited funding.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Configuring</span>
+                            <span class="tag">Optimizing performance</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project Card 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="--bg-hue: 200;">
+                            <div class="placeholder-blocks">
+                                <span></span><span></span><span></span>
+                                <span></span><span></span><span></span>
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Lapismc – Lifesteal Server</h3>
+                        <p class="project-description">
+                            Worked as lead developer, delivering optimized systems and custom features for a seamless player experience.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Web Developer</span>
+                            <span class="tag">Tool Creator</span>
+                            <span class="tag">System Optimizer</span>
+                        </div>
+                    </div>
+                </article>
+
+            
+                <!-- Project Card 4 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="--bg-hue: 30;">
+                            <div class="placeholder-blocks">
+                                <span></span><span></span><span></span>
+                                <span></span><span></span><span></span>
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">FireMC – Minecraft Server</h3>
+                        <p class="project-description">
+                            Worked as a Junior Developer, managing plugin setups, optimizing systems, and adding custom gameplay features.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">System Optimizer</span>
+                            <span class="tag">Systems Support</span>
+                            <span class="tag">Plugin Manager</span>
+                        </div>
+                    </div>
+                </article>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         CONTACT SECTION
+         Simple form with name, email, message, submit
+         ======================================== -->
+    <section id="contact" class="contact">
+    <div class="section-container">
+        <h2 class="section-title">
+            <span class="title-bracket">[</span>
+            Send a Message
+            <span class="title-bracket">]</span>
+        </h2>
+        <p class="section-subtitle">Ready to start a new quest together? Drop me a line!</p>
+
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <div class="info-card">
+                    <div class="info-icon email-icon"></div>
+                    <h4>Email</h4>
+                    <p>mike_exe7xproton.me</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon location-icon"></div>
+                    <h4>Location</h4>
+                    <p>Nepal</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon status-icon"></div>
+                    <h4>Status</h4>
+                    <p class="status-online">Online - Ready to Party!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER
+         Social links and copyright
+         ======================================== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">☘ MKZ</span>
+                    <p>I’m a developer passionate about building and managing Minecraft servers, creating custom plugins, and optimizing performance. I love learning new technologies and continuously improving my skills to deliver reliable, engaging experiences for players.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#projects">Projects</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://discord.com/users/1035918253001822208" class="social-link github" aria-label="GitHub">
+                            <span>DC</span>
+                        </a>
+                        <a href="https://github.com/PluginSmith07" class="social-link twitter" aria-label="Twitter">
+                            <span>GH</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 <b>Mike</b> (Blowody). All rights reserved.</p>
+                <p class="made-with">Made with <span class="heart">*</span> and lots of coffee</p>
+            </div>
+        </div>
+
+        <!-- Decorative pixel blocks -->
+        <div class="footer-decoration">
+            <span class="deco-block"></span>
+            <span class="deco-block"></span>
+            <span class="deco-block"></span>
+        </div>
+    </footer>
+
+    <!-- ========================================
+         JAVASCRIPT - Navigation Toggle & Form Handling
+         ======================================== -->
+    <script src="src/main.ts" type="module"></script>
+</body>
+</html>
